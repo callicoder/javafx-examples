@@ -8,17 +8,22 @@
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.Button?>
 <GridPane fx:controller="javafx.example.RegistrationFormController"
-          xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="10" vgap="10">
+          xmlns:fx="http://javafx.com/fxml" alignment="center"
+          hgap="10" vgap="10">
     <padding><Insets top="40" right="40" bottom="40" left="40"/></padding>
     <columnConstraints>
-        <ColumnConstraints minWidth="100" prefWidth="100" maxWidth="Infinity" halignment="RIGHT"></ColumnConstraints>
-        <ColumnConstraints minWidth="200" prefWidth="200" maxWidth="Infinity" hgrow="ALWAYS"></ColumnConstraints>
+        <ColumnConstraints minWidth="100" prefWidth="100"
+                           maxWidth="Infinity" halignment="RIGHT">
+        </ColumnConstraints>
+        <ColumnConstraints minWidth="200" prefWidth="200"
+                           maxWidth="Infinity" hgrow="ALWAYS">
+        </ColumnConstraints>
     </columnConstraints>
 
     <!-- Add Header Label -->
-    <Label text="Registration Form" GridPane.columnIndex="0" GridPane.rowIndex="0"
-           GridPane.columnSpan="2" GridPane.rowSpan="1"
-           GridPane.halignment="CENTER" >
+    <Label text="Registration Form" GridPane.columnIndex="0"
+           GridPane.rowIndex="0" GridPane.columnSpan="2"
+           GridPane.rowSpan="1" GridPane.halignment="CENTER" >
         <font>
             <Font name="Arial" size="24" ></Font>
         </font>
@@ -30,23 +35,31 @@
 
 
     <!-- Add Name Label -->
-    <Label text="Full Name : " GridPane.columnIndex="0" GridPane.rowIndex="1" ></Label>
+    <Label text="Full Name : " GridPane.columnIndex="0"
+           GridPane.rowIndex="1" >
+    </Label>
     <!-- Add Name Text Field -->
-    <TextField fx:id="nameField"
-               prefHeight="40" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
+    <TextField fx:id="nameField" prefHeight="40"
+               GridPane.columnIndex="1" GridPane.rowIndex="1"/>
 
 
     <!-- Add Email Label -->
-    <Label text="Email ID : " GridPane.columnIndex="0" GridPane.rowIndex="2" ></Label>
+    <Label text="Email ID : " GridPane.columnIndex="0"
+           GridPane.rowIndex="2" >
+    </Label>
     <!-- Add Email Text Field -->
-    <TextField fx:id="emailField" prefHeight="40" GridPane.columnIndex="1" GridPane.rowIndex="2"/>
+    <TextField fx:id="emailField" prefHeight="40"
+               GridPane.columnIndex="1" GridPane.rowIndex="2"/>
 
 
 
     <!-- Add Password Label -->
-    <Label text="Password : " GridPane.columnIndex="0" GridPane.rowIndex="3" ></Label>
+    <Label text="Password : " GridPane.columnIndex="0"
+           GridPane.rowIndex="3" >
+    </Label>
     <!-- Add Password Field -->
-    <PasswordField fx:id="passwordField" prefHeight="40" GridPane.columnIndex="1" GridPane.rowIndex="3"/>
+    <PasswordField fx:id="passwordField" prefHeight="40"
+                   GridPane.columnIndex="1" GridPane.rowIndex="3"/>
 
 
     <!-- Add Submit Button -->
