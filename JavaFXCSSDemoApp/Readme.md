@@ -1,1 +1,0 @@
-JavaFX CSS Demo Example
