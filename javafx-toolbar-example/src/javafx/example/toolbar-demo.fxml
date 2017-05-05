@@ -1,0 +1,82 @@
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+<BorderPane xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <ToolBar styleClass="toolbar">
+            <Button text="Home">
+                <graphic>
+                    <ImageView>
+                        <image>
+                            <Image url="@img/home-outline.png"></Image>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Separator></Separator>
+            <Button text="Blog">
+                <graphic>
+                    <ImageView>
+                        <image>
+                            <Image url="@img/note-multiple-outline.png"></Image>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Separator></Separator>
+            <Button text="About">
+                <graphic>
+                    <ImageView>
+                        <image>
+                            <Image url="@img/account-box-outline.png"></Image>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+            <Separator></Separator>
+            <Pane HBox.hgrow="ALWAYS"></Pane>
+            <Separator></Separator>
+            <Button text="Contact">
+                <graphic>
+                    <ImageView>
+                        <image>
+                            <Image url="@img/email-outline.png"></Image>
+                        </image>
+                    </ImageView>
+                </graphic>
+            </Button>
+        </ToolBar>
+    </top>
+    <center>
+        <VBox styleClass="content">
+            <Label styleClass="heading" text="Page Content"></Label>
+            <Label>
+                <text>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas turpis massa, tristique quis sem nec, tincidunt laoreet justo. Cras convallis magna vel sem tempor scelerisque. Maecenas ipsum magna, rhoncus quis nisi non, maximus feugiat urna. Aenean mollis imperdiet auctor. Aliquam erat volutpat. Phasellus id cursus orci. Maecenas sit amet pharetra turpis, vel feugiat odio. Praesent congue convallis velit, in mattis leo tempus quis. Nulla sed gravida eros, vel consectetur dui. Sed placerat elit orci. Fusce cursus, enim et vulputate pellentesque, massa nulla lobortis quam, a lobortis lacus sapien non est. Donec porttitor magna eu nulla commodo, consectetur fringilla nunc dictum. Mauris egestas felis vitae sem ultrices facilisis. Duis maximus nisi eget nisl pellentesque, non aliquet enim malesuada. Morbi lobortis nibh vel aliquam luctus.
+                </text>
+            </Label>
+            <Label>
+                <text>
+                    Praesent tincidunt velit ac mi finibus mollis. Donec molestie a tortor sed iaculis. Suspendisse malesuada egestas nunc a euismod. Cras pharetra nisi a egestas luctus. Integer ut est vel metus dictum ullamcorper sit amet eu enim. Nullam finibus vitae augue sed interdum. Nullam condimentum id elit aliquet posuere. Phasellus eu velit est. Suspendisse lobortis augue quis neque laoreet mollis. Sed tempus risus vitae consequat porta. Integer ac sollicitudin sem. Maecenas tortor dolor, maximus eu hendrerit vitae, ultrices vitae felis.
+                </text>
+            </Label>
+        </VBox>
+    </center>
+    <bottom>
+        <HBox styleClass="footer">
+            <Label text="Copyright 2017 CalliCoder"></Label>
+        </HBox>
+    </bottom>
+
+    <stylesheets>
+        <URL value="@toolbar-demo.css"></URL>
+    </stylesheets>
+</BorderPane>

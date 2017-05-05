@@ -1,0 +1,31 @@
+.root {
+    -fx-font-size: 14px;
+}
+
+.toolbar Button {
+    -fx-background-color: transparent;
+    -fx-content-display: top;
+    -fx-pref-width: 90px;
+}
+
+.content {
+    -fx-padding: 20px;
+    -fx-vgap: 10px;
+}
+
+.heading {
+    -fx-font-size: 18px;
+    -fx-font-weight: 700;
+}
+
+.content Label {
+    -fx-wrap-text: true;
+    -fx-padding: 0 0 15px 0;
+}
+
+.footer {
+    -fx-padding: 15px;
+    -fx-alignment: center;
+    -fx-border-width: 1;
+    -fx-border-color: #E8E8E8 transparent transparent transparent;
+}
