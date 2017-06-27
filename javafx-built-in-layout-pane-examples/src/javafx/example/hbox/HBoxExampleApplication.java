@@ -1,4 +1,4 @@
-package javafx.example;
+package javafx.example.hbox;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,13 +6,13 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-public class RegistrationFormApplication extends Application {
+public class HBoxExampleApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("registration_form.fxml"));
-        primaryStage.setTitle("Registration Form FXML Application");
-        primaryStage.setScene(new Scene(root, 800, 500));
+        Parent root = FXMLLoader.load(getClass().getResource("layout.fxml"));
+        primaryStage.setTitle("JavaFX HBox Layout Pane Example");
+        primaryStage.setScene(new Scene(root, 600, 340));
         primaryStage.show();
     }
 

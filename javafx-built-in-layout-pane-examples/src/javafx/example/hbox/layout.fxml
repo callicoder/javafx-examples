@@ -1,0 +1,22 @@
+<?import javafx.scene.layout.HBox?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<HBox xmlns:fx="http://javafx.com/fxml"
+      alignment="center" spacing="10">
+    <padding>
+        <Insets top="20" left="40" bottom="20" right="40"></Insets>
+    </padding>
+    <Button>
+        HBox Item 1
+    </Button>
+    <Button>
+        HBox Item 2
+    </Button>
+    <Button>
+        HBox Item 3
+    </Button>
+    <Button>
+        HBox Item 4
+    </Button>
+
+</HBox>

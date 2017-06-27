@@ -1,0 +1,14 @@
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml" alignment="center"
+    spacing="15">
+    <padding>
+        <Insets top="40" left="40" bottom="40" right="40"></Insets>
+    </padding>
+    <Button>VBox Item 1</Button>
+    <Button>VBox Item 2</Button>
+    <Button>VBox Item 3</Button>
+    <Button>VBox Item 4</Button>
+</VBox>

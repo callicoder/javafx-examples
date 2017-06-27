@@ -1,4 +1,4 @@
-package sample;
+package javafx.example;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -11,9 +11,9 @@ public class CSSDemoApplication extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("css_demo.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("javafx/example/css_demo.fxml"));
         Scene scene = new Scene(root, 800, 500);
-        scene.getStylesheets().add(getClass().getResource("demo.css").toExternalForm());
+        scene.getStylesheets().add(getClass().getResource("javafx/example/demo.css").toExternalForm());
         primaryStage.setScene(scene);
         primaryStage.show();
     }

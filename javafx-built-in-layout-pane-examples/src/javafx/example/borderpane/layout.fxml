@@ -1,0 +1,50 @@
+<?import javafx.scene.layout.BorderPane?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.geometry.Insets?>
+<BorderPane xmlns:fx="http://javafx.com/fxml">
+    <top>
+        <Label maxWidth="Infinity" alignment="TOP_CENTER"
+               style="-fx-border-color: #C8C8C8;
+               -fx-border-width: 0 0 1 0;
+               -fx-border-style: solid">
+            <text>JavaFX BorderPane Example</text>
+            <font>
+                <Font name="Arial" size="20">
+                </Font>
+            </font>
+            <padding>
+                <Insets top="20" left="20" bottom="20" right="20"></Insets>
+            </padding>
+        </Label>
+    </top>
+    <center>
+        <Label maxWidth="Infinity" alignment="CENTER" style="-fx-wrap-text: true">
+            <text>
+               BorderPane allows you to place nodes at top, left, bottom, right
+                and center of the application window. The heading above is placed
+                in BorderPane's top position. This content is at center. We also
+                have a footer at the bottom.
+            </text>
+            <font>
+                <Font name="Arial" size="16">
+                </Font>
+            </font>
+            <padding>
+                <Insets top="20" left="80" bottom="20" right="80"></Insets>
+            </padding>
+        </Label>
+    </center>
+    <bottom>
+        <Label maxWidth="Infinity" alignment="BOTTOM_CENTER"
+               style="-fx-border-color: #C8C8C8;
+               -fx-border-width: 1 0 0 0;
+               -fx-border-style: solid">
+            <text>Copyright callicoder.com</text>
+            <padding>
+                <Insets top="20" left="20" bottom="20" right="20"></Insets>
+            </padding>
+        </Label>
+    </bottom>
+</BorderPane>
