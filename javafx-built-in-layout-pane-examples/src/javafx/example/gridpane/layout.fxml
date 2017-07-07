@@ -5,15 +5,26 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.HBox?>
 <GridPane xmlns:fx="http://javafx.com/fxml" alignment="CENTER" hgap="20" vgap="10">
-    <Label GridPane.rowIndex="0" GridPane.columnIndex="0">Username: </Label>
-    <TextField prefWidth="200" GridPane.rowIndex="0" GridPane.columnIndex="1"></TextField>
+    <Label GridPane.rowIndex="0" GridPane.columnIndex="0">
+        Username:
+    </Label>
+    <TextField prefWidth="200" GridPane.rowIndex="0"
+               GridPane.columnIndex="1">
+    </TextField>
 
-    <Label GridPane.rowIndex="1" GridPane.columnIndex="0">Password: </Label>
-    <PasswordField prefWidth="200" GridPane.rowIndex="1" GridPane.columnIndex="1"></PasswordField>
+    <Label GridPane.rowIndex="1" GridPane.columnIndex="0">
+        Password:
+    </Label>
 
-    <HBox alignment="BOTTOM_RIGHT" GridPane.rowIndex="2" GridPane.columnIndex="0" GridPane.columnSpan="2">
+    <PasswordField prefWidth="200" GridPane.rowIndex="1"
+                   GridPane.columnIndex="1">
+    </PasswordField>
+
+    <HBox alignment="BOTTOM_RIGHT" GridPane.rowIndex="2"
+          GridPane.columnIndex="0" GridPane.columnSpan="2">
         <children>
-            <Button prefWidth="100" defaultButton="true" text="Login" alignment="CENTER"></Button>
+            <Button prefWidth="100" defaultButton="true"
+                    text="Login" alignment="CENTER"></Button>
         </children>
     </HBox>
 </GridPane>
