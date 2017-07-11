@@ -11,7 +11,7 @@ public class VBoxExampleApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("layout.fxml"));
-        primaryStage.setTitle("VBox Layout Pane Example Application");
+        primaryStage.setTitle("JavaFX Built-in Layout Panes Example");
         primaryStage.setScene(new Scene(root, 600, 340));
         primaryStage.show();
     }

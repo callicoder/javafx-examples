@@ -13,7 +13,7 @@ public class GridPaneApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("layout.fxml"));
-        primaryStage.setTitle("JavaFX GridPane Layout Example");
+        primaryStage.setTitle("JavaFX Built-in Layout Panes Example");
         primaryStage.setScene(new Scene(root, 600, 340));
         primaryStage.show();
     }

@@ -18,7 +18,7 @@ public class BorderPaneApplication extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("layout.fxml"));
-        primaryStage.setTitle("JavaFX BorderPane Layout Example");
+        primaryStage.setTitle("JavaFX Built-in Layout Panes Example");
         primaryStage.setScene(new Scene(root, 800, 500));
         primaryStage.show();
     }
